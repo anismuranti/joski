@@ -1,5 +1,5 @@
 <?php
-
+while(true){
 
 $headers = array(
 "Host: app.oneaset.co.id",
@@ -21,8 +21,8 @@ if($stock == "1"){
 }else{
 telegram ("===============================\n                 ＣＥＫ ＥＶＥＮＴ\n                    ＯＮＥＡＳＥＴ\n===============================\n[<>] NAME => $name\n[<>] STOCK => ABIS\n===============================\n");
 }
-
-
+sleep(300);
+}
 
 
 
